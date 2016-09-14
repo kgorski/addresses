@@ -40,7 +40,6 @@ class AppServiceProvider extends ServiceProvider
         $this->app->bind(
             'Services\AddressService',
             function ($app) {
-                //return new AddressService($app->make('Elasticsearch\Client'));
                 return new AddressService($app['Elasticsearch\Client']);
             }
         );
