@@ -27,7 +27,7 @@
             </tr>
             @endforeach
         @else
-            <tr><td colspan="4">No addresses yet, please <a href="{{ route('address-form') }}">add address</a> first</td></tr>
+            <tr><td colspan="5">No addresses yet, please <a href="{{ route('address-form') }}">add address</a> first</td></tr>
         @endif
         </tbody>
     </table>
