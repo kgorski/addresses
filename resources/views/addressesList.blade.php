@@ -9,11 +9,13 @@
 
     <table border="1px">
         <thead>
-            <td>Street</td>
-            <td>ZIP</td>
-            <td>City</td>
-            <td>Country</td>
-            <td>Created at</td>
+            <tr>
+                <th>Street</th>
+                <th>ZIP</th>
+                <th>City</th>
+                <th>Country</th>
+                <th>Created at</th>
+            </tr>
         </thead>
         <tbody>
         @if (count($addresses) > 0)
